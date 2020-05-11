@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .big {
+            width: 600px;
+            height: 600px;
+            border: 2px solid red;
+        }
+        
+        .small {
+            width: 150px;
+            height: 150px;
+            background-color: green;
+        }
+        
+        .father {}
+        
+        .child {
+            margin: calc(50% - 75px) auto 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="big father">
+        <div class="small child"></div>
+    </div>
+</body>
+
+</html>
